@@ -27,7 +27,6 @@ from src import UI
 from src import GmailnatorRead, GmailnatorGet, dfilter_email, pfilter_email, find_email_type
 
 init(convert=True)
-
 lock = threading.Lock()
 
 def password_gen(length=8, chars= string.ascii_letters + string.digits + string.punctuation):
